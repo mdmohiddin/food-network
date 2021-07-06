@@ -12,8 +12,9 @@ h1{
     line-height: 20px;
     font-weight: bolder;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 
 }
 .width{
@@ -27,11 +28,36 @@ section{
 }
 a{
     background-image: linear-gradient(rgb(255, 130, 108) , rgb(255, 81, 0));
-    padding: 20px 50px;
+    padding: 23px 45px;
     border-radius: 50px;
     color: white;
     text-decoration: none;
     font-weight: 700;
-    box-shadow: 5px 5px 15px tomato;
-    
+    box-shadow: 5px 5px 15px tomato; 
+}
+h2{
+    color: gray;
+    font-size: 40px;
+}
+.about-me{
+    background-image: url(food-network-main/food-network-main/images/shapes/7.png);
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.my-recipes{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+h4{
+    font-size: 28px;
+}
+.eat-healthy{
+    background-color: rgb(1, 1, 26);
+    padding-bottom: 90px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+
 }
